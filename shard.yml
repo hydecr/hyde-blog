@@ -1,0 +1,17 @@
+name: hyde-blog
+version: 0.1.0
+
+authors:
+  - Chris Watson <chris@watzon.me>
+
+targets:
+  hyde-blog:
+    main: src/hyde-blog.cr
+
+dependencies:
+  hyde:
+    github: hydecr/hyde
+
+crystal: 0.28.0
+
+license: MIT
